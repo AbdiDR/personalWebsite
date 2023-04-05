@@ -1,0 +1,309 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: lightblue;
+  margin: auto;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0px 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00a3cc;
+}
+
+nav img {
+  height: 30px;
+  width: 50px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.hero {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #212121;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+span {
+  color: #1abc9c;
+}
+
+.hero p {
+  color: #555;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  height: 100%;
+  width: 400px;
+  margin: 0 auto;
+}
+/* Contact me */
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Footer */
+
+.footer-basic {
+  background-color: #add8e6;
+  color: black;
+}
+.footer-basic .social {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.logo a {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 8px;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.footer-header {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.copyright {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  margin-bottom: 50px;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 96.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  resize: none;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #16a085;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+}
+
+.skill {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about-me h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.about-me img {
+  width: 200px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5em;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project img {
+  width: 150px;
+  height: 150px;
+}
+
+
+.project-section {
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.project-section h1{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.project{
+  padding: 5px;
+}
+
+.project:hover{
+  background-color: grey;
+  padding: 5px;
+  color: white;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
